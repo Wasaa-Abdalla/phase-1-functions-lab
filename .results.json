@@ -2,18 +2,18 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 12,
+    "passes": 13,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-07-17T20:01:47.676Z",
-    "end": "2023-07-17T20:01:48.182Z",
-    "duration": 506
+    "failures": 0,
+    "start": "2023-10-06T07:03:05.617Z",
+    "end": "2023-10-06T07:03:06.094Z",
+    "duration": 477
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,7 +34,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -90,15 +90,9 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 2,
+      "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected '25 dollars' to equal 25",
-        "showDiff": true,
-        "actual": "25 dollars",
-        "expected": 25,
-        "stack": "AssertionError: expected '25 dollars' to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)"
-      }
+      "err": {}
     },
     {
       "title": "does not allow rides over 2500 feet",
@@ -109,26 +103,12 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "charges 25 dollars for a distance over 2000 feet",
-      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 2,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected '25 dollars' to equal 25",
-        "showDiff": true,
-        "actual": "25 dollars",
-        "expected": 25,
-        "stack": "AssertionError: expected '25 dollars' to equal 25\n    at Context.<anonymous> (test/indexTest.js:55:46)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -149,7 +129,7 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -198,6 +178,13 @@
     {
       "title": "charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 2 cents per foot when total feet travelled is between 400 and 2000 (remember the first 400 feet are free!)",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "charges 25 dollars for a distance over 2000 feet",
+      "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
       "duration": 0,
       "currentRetry": 0,
       "err": {}
